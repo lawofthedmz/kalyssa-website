@@ -20,22 +20,42 @@ const NavList = styled.ul`
   padding: 0.5rem 1rem;
   background: #1a1a1a; /* Solid color for the pill bar */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow for a floating effect */
+
+  @media (max-width: 768px) {
+    gap: 0.5rem;
+    padding: 0.3rem 0.5rem;
+  }
 `;
 
 const NavItem = styled.li`
   padding: 0.5rem 1rem;
   border-radius: 20px;
+
+  @media (max-width: 768px) {
+    padding: 0.3rem 0.6rem;
+  }
 `;
 
 const StyledNavLink = styled.a`
   text-decoration: none;
   color: #fff;
   font-weight: bold;
+  font-size: 1.2rem;
+  
   &.active {
     background: linear-gradient(145deg, #d53369, #daae51); /* Gradient color for the active link */
     color: #fff;
     border-radius: 20px;
     padding: 0.5rem 1rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+
+    &.active {
+      padding: 0.4rem 0.8rem;
+    }
   }
 `;
 
