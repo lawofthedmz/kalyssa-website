@@ -17,6 +17,9 @@ const Title = styled.h2`
   font-size: 3rem;
   margin-bottom: 2rem;
   text-align: center;
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 const GlowingBarContainer = styled.div`
@@ -68,6 +71,10 @@ const Content = styled.div`
   color: #fff;
   text-align: left;
   line-height: 1.6;
+  @media (max-width: 768px) {
+    text-align: center;
+    padding: 0 1rem;
+  }
 `;
 
 const Paragraph = styled.p`

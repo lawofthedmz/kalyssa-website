@@ -18,6 +18,9 @@ const Title = styled.h2`
   font-size: 3rem;
   margin-bottom: 2rem;
   text-align: center;
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 const GlowingBarContainer = styled.div`
@@ -70,6 +73,9 @@ const Form = styled.form`
   align-items: center;
   width: 100%;
   max-width: 600px;
+  @media (max-width: 768px) {
+    padding: 0 1rem;
+  }
 `;
 
 const Label = styled.label`

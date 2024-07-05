@@ -8,6 +8,9 @@ const Section = styled.section`
   align-items: center;
   justify-content: center;
   background-color: #000; /* Ensure background color is consistent */
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const PictureContainer = styled.div`
@@ -15,6 +18,10 @@ const PictureContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-right: 2rem;
+  @media (max-width: 768px) {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
 `;
 
 const GlowingBorder = styled.div`
@@ -36,6 +43,10 @@ const TextContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+  @media (max-width: 768px) {
+    align-items: center;
+    text-align: center;
+  }
 `;
 
 const Name = styled.h1`
@@ -46,6 +57,9 @@ const Name = styled.h1`
   font-size: 3rem; /* Increased font size */
   line-height: 1.2;
   font-family: 'Montserrat', sans-serif; /* Ensure font is applied */
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 const Title = styled.h2`
@@ -53,6 +67,9 @@ const Title = styled.h2`
   margin-top: 0.5rem;
   font-size: 2rem; /* Increased font size */
   font-family: 'Montserrat', sans-serif; /* Ensure font is applied */
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 function Home() {
