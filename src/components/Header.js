@@ -86,6 +86,7 @@ function Header() {
         <NavItem><StyledNavLink href="#home" className={activeLink === 'home' ? 'active' : ''}>Home</StyledNavLink></NavItem>
         <NavItem><StyledNavLink href="#about" className={activeLink === 'about' ? 'active' : ''}>About</StyledNavLink></NavItem>
         <NavItem><StyledNavLink href="#experience" className={activeLink === 'experience' ? 'active' : ''}>Experience</StyledNavLink></NavItem>
+        <NavItem><StyledNavLink href="#resume" className={activeLink === 'resume' ? 'active' : ''}>Resume</StyledNavLink></NavItem>
         <NavItem><StyledNavLink href="#contact" className={activeLink === 'contact' ? 'active' : ''}>Contact</StyledNavLink></NavItem>
       </NavList>
     </Nav>
