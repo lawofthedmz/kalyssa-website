@@ -95,10 +95,10 @@ function Experience() {
       </PictureContainer>
       <Content>
         <Paragraph>
-          During my internship at Peterson Pet Hospital, I have gained hands-on experience in various veterinary procedures and client communication skills. This experience has strengthened my passion for animal care and has provided me with invaluable insights into the veterinary field.
+          During my time at Peterson Pet Hospital, I have gained hands-on experience in various veterinary procedures and client communication skills. This experience has strengthened my passion for animal care and has provided me with invaluable insights into the veterinary field.
         </Paragraph>
         <Paragraph>
-          My education at Kirkwood Community College has equipped me with a strong foundation in veterinary technology. I am committed to continuous learning and professional growth to ensure I provide the best care for animals.
+          My education at Kirkwood Community College has equipped me with a strong foundation in veterinary medicine. I am committed to continuous learning and professional growth to ensure I provide the best care for animals.
         </Paragraph>
       </Content>
     </Section>

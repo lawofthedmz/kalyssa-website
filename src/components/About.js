@@ -95,10 +95,10 @@ function About() {
       </PictureContainer>
       <Content>
         <Paragraph>
-          Hello! I'm Kalyssa Merritt, an aspiring veterinary technician currently studying at Kirkwood Community College. I am passionate about providing the best care for animals and gaining hands-on experience at Peterson Pet Hospital.
+          Hello! I'm Kalyssa Merritt, an aspiring veterinary technician currently studying at Kirkwood Community College. I am passionate about providing the best care for animals and gaining hands-on experience.
         </Paragraph>
         <Paragraph>
-          My journey into veterinary technology has been driven by a lifelong love for animals and a desire to make a positive impact on their lives. I am dedicated to learning and growing in this field, and I look forward to a rewarding career helping animals and their owners.
+          My journey into veterinary medicine has been driven by a lifelong love for animals and a desire to make a positive impact on their lives. I am dedicated to learning and growing in this field, and I look forward to a rewarding career helping animals and their owners.
         </Paragraph>
       </Content>
     </Section>
