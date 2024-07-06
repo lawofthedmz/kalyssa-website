@@ -25,6 +25,10 @@ const NavList = styled.ul`
     gap: 0.3rem;
     padding: 0.2rem 0.4rem;
   }
+  @media (max-width: 480px) {
+    gap: 0.2rem;
+    padding: 0.1rem 0.3rem;
+  }
 `;
 
 const NavItem = styled.li`
@@ -33,6 +37,9 @@ const NavItem = styled.li`
 
   @media (max-width: 768px) {
     padding: 0.2rem 0.4rem;
+  }
+  @media (max-width: 480px) {
+    padding: 0.1rem 0.3rem;
   }
 `;
 
@@ -55,6 +62,14 @@ const StyledNavLink = styled.a`
 
     &.active {
       padding: 0.2rem 0.4rem;
+    }
+  }
+  @media (max-width: 480px) {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.3rem;
+
+    &.active {
+      padding: 0.1rem 0.3rem;
     }
   }
 `;

@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
 const Section = styled.section`
   min-height: 100vh;
   padding: 4rem 2rem;
@@ -53,6 +54,7 @@ function Resume() {
       <GlowingBarContainer>
         <GlowingBar />
       </GlowingBarContainer>
+      <iframe src="/assets/resume.pdf" title="Resume Document" style={{width: '80%', height: '1000px', border: 'none'}}></iframe>
     </Section>
   );
 }
